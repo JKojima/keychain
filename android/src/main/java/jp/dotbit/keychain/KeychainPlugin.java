@@ -12,11 +12,17 @@ public class KeychainPlugin extends Plugin {
     private Keychain implementation = new Keychain();
 
     @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
+    public void save(PluginCall call) {
+        call.reject("not implemented");
+    }
 
-        JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
-        call.resolve(ret);
+    @PluginMethod
+    public void load(PluginCall call) {
+        call.reject("not implemented");
+    }
+
+    @PluginMethod
+    public void delete(PluginCall call) {
+        call.reject("not implemented");
     }
 }
