@@ -1,11 +1,11 @@
-# @dotbit/keychain
+# @dotbitjp/keychain
 
-Keychain service for ios
+Capacitor plugin for accessing iOS Keychain services, providing secure storage for sensitive data
 
 ## Install
 
 ```bash
-npm install @dotbit/keychain
+npm install @dotbitjp/keychain
 npx cap sync
 ```
 

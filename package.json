@@ -1,7 +1,7 @@
 {
   "name": "@dotbitjp/keychain",
   "version": "0.0.3",
-  "description": "Keychain service for ios",
+  "description": "Capacitor plugin for accessing iOS Keychain services, providing secure storage for sensitive data",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
