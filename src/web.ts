@@ -3,15 +3,13 @@ import { WebPlugin } from '@capacitor/core';
 import type { KeychainPlugin } from './definitions';
 
 export class KeychainWeb extends WebPlugin implements KeychainPlugin {
-  async save(options: { key: string, value: string }): Promise<{ value: string }> {
-    return options;
+  async save(_options: { key: string, value: string }): Promise<{ value: string }> {
+    throw new Error('Method not implemented.');
   } 
-  async load(options: { key: string }): Promise<{ value: string }> {
-    console.log('LOAD', options);
-    return { value: "string" };
+  async load(_options: { key: string }): Promise<{ value: string }> {
+    throw new Error('Method not implemented.');
   }
-  async delete(options: { key: string }): Promise<{ value: string }> {
-    console.log('DELETE', options);
-    return { value: "string" };
+  async delete(_options: { key: string }): Promise<{ value: string }> {
+    throw new Error('Method not implemented.');
   }
 }
