@@ -1,6 +1,6 @@
 {
   "name": "@dotbitjp/keychain",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Capacitor plugin for accessing iOS Keychain services, providing secure storage for sensitive data",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -14,7 +14,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "DotbitKeychain.podspec"
+    "DotbitjpKeychain.podspec"
   ],
   "author": "JKojima",
   "license": "MIT",
